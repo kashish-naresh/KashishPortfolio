@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terminal Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="background-animation.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Animation container with ID -->
+    <div id="background-animation"></div>
+
+    <div class="terminal-container" id="terminal-container">
+      <!-- Your existing terminal structure -->
+      <div class="terminal-header">
+        <div class="terminal-buttons">
+          <span class="close-btn"></span>
+          <span class="minimize-btn"></span>
+          <span class="maximize-btn"></span>
+        </div>
+        <div class="terminal-title">terminal — bash — 80×24</div>
+      </div>
+      <div class="terminal-body" id="terminal">
+        <div class="terminal-content" id="terminal-content"></div>
+        <div class="terminal-input-line">
+          <span class="prompt">visitor@portfolio:~$</span>
+          <input
+            type="text"
+            class="terminal-input"
+            id="terminal-input"
+            autofocus
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="card-overlay" id="card-overlay">
+      <div class="card-container" id="card-container"></div>
+      <button class="close-card-btn" id="close-card-btn">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="background-animation.js"></script>
+  </body>
+</html>

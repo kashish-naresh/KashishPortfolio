@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Terminal Styles */
+body {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  font-family: "Ubuntu Mono", monospace;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.terminal-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 800px;
+  height: 70%;
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.terminal-header {
+  height: 30px;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  user-select: none;
+}
+
+.terminal-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.terminal-buttons span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.close-btn {
+  background-color: #ff5f56;
+}
+
+.minimize-btn {
+  background-color: #ffbd2e;
+}
+
+.maximize-btn {
+  background-color: #27c93f;
+}
+
+.terminal-title {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 12px;
+  color: #aaa;
+}
+
+.terminal-body {
+  flex-grow: 1;
+  padding: 15px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.terminal-body::-webkit-scrollbar {
+  display: none;
+}
+
+.terminal-content {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.terminal-input-line {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.prompt {
+  color: #4af626;
+  margin-right: 10px;
+  white-space: nowrap;
+}
+
+.terminal-input {
+  background: transparent;
+  border: none;
+  color: #f0f0f0;
+  font-family: "Ubuntu Mono", monospace;
+  font-size: inherit;
+  flex-grow: 1;
+  outline: none;
+  caret-color: #4af626;
+}
+
+.command {
+  color: #4af626;
+}
+.output pre {
+  font-family: "Ubuntu Mono", monospace;
+  white-space: pre-wrap;
+  margin: 5px 0;
+  line-height: 1.5;
+  color: #f0f0f0;
+}
+
+.output pre span {
+  color: #4af626;
+}
+.output {
+  margin: 5px 0 15px 0;
+  white-space: pre-wrap;
+}
+
+.help-command {
+  color: #4af626;
+  margin-right: 15px;
+}
+
+.help-description {
+  color: #f0f0f0;
+}
+
+/* Card Overlay Styles */
+.card-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 100;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px);
+}
+
+.card-container {
+  background-color: rgba(30, 30, 30, 0.95);
+  border-radius: 10px;
+  width: 80%;
+  max-width: 900px;
+  max-height: 80vh;
+  padding: 30px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+  position: relative;
+  border: 1px solid #4af626;
+}
+
+.card-container::-webkit-scrollbar {
+  display: none;
+}
+
+.close-card-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  color: #f0f0f0;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s;
+  z-index: 101;
+}
+
+.close-card-btn:hover {
+  color: #4af626;
+}
+
+/* Card Content Styles */
+.card-title {
+  color: #4af626;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.card-title i {
+  font-size: 1.8rem;
+}
+
+.card-content {
+  line-height: 1.7;
+  font-size: 1.1rem;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.tech-tag {
+  background-color: #333;
+  color: #f0f0f0;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.project-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+  border-radius: 5px;
+  margin: 15px 0;
+  border: 1px solid #444;
+  background-color: #222;
+}
+
+.skill-category {
+  margin-bottom: 20px;
+}
+
+.skill-category h3 {
+  color: #4af626;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.timeline-item {
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #333;
+}
+
+.timeline-item:last-child {
+  border-bottom: none;
+}
+
+.timeline-item h3 {
+  color: #f0f0f0;
+  margin-bottom: 5px;
+}
+
+.timeline-item .date {
+  color: #aaa;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.contact-method {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.contact-method i {
+  width: 30px;
+  font-size: 1.2rem;
+  color: #4af626;
+}
+
+/* Typewriter Effect */
+.typewriter {
+  border-right: 2px solid #4af626;
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #4af626;
+  }
+}
