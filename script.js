@@ -340,7 +340,9 @@ Keyboard Shortcuts:
     </div>
   </div>
   <div class="project-card" style="margin-top: 30px;">
+  <a href="https://kashish-naresh.github.io/FileMaster/" target="_blank" rel="noopener noreferrer">
     <img src="src/multi-tools.png" class="project-image" alt="Task Management">
+    </a>
     <h3>File Master</h3>
     <br>
     <div class="card-content">
@@ -363,7 +365,9 @@ Keyboard Shortcuts:
   </div>
 
   <div class="project-card" style="margin-top: 30px;">
+  <a href="https://kashish-naresh.github.io/Notes/" target="_blank" rel="noopener noreferrer">
     <img src="src/notes.png" class="project-image" alt="Task Management">
+    </a>
     <h3>Notes</h3>
     <br>
     <div class="card-content">
@@ -384,7 +388,9 @@ Keyboard Shortcuts:
   </div>
 
   <div class="project-card" style="margin-top: 30px;">
+    <a href="https://kashish-naresh.github.io/To-Do-List-WEB/" target="_blank" rel="noopener noreferrer">
     <img src="src/to-do-web.png" class="project-image" alt="Task Management">
+    </a>
     <h3>To Do List</h3>
     <br>
     <div class="card-content">
@@ -405,7 +411,9 @@ Keyboard Shortcuts:
   </div>
 
   <div class="project-card" style="margin-top: 30px;">
+    <a href="https://kashish-naresh.github.io/mindReader/" target="_blank" rel="noopener noreferrer">
     <img src="src/mind-reader.png" class="project-image" alt="Task Management">
+    </a>
     <h3>Mind Reader</h3>
     <br>
     <div class="card-content">
