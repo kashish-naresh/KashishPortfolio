@@ -275,7 +275,7 @@ Keyboard Shortcuts:
   </h2>
   
   <div class="project-card">
-    <img src="src/terminal-portfolio.png" class="project-image" alt="E-commerce Platform">
+    <img src="src/terminal-portfolio.png" class="project-image" alt="KC's Portfolio">
     <h3>KC's Terminal Platform</h3>
     <br>
     <div class="card-content">
@@ -298,7 +298,7 @@ Keyboard Shortcuts:
   </div>
   
   <div class="project-card" style="margin-top: 30px;">
-    <img src="src/web-browser.png" class="project-image" alt="Task Management">
+    <img src="src/web-browser.png" class="project-image" alt="Web Browser">
     <h3>KC's Web Browser</h3>
     <br>
     <div class="card-content">
