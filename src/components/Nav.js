@@ -15,7 +15,7 @@ const Nav = () => {
       <Link to="/">
         <div className="flex flex-row gap-2 backdrop-blur-md bg-opacity-60 bg-[#f8f8f8] rounded-lg px-3 py-1">
           <img
-            src="/img/k-sign.png"
+            src={`${process.env.PUBLIC_URL}/img/k-sign.png`}
             alt=""
             className="w-10 h-10 rounded-full"
           />

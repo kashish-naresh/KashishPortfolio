@@ -11,6 +11,9 @@ import CV from "./pages/CV";
 import Works from "./pages/Works";
 
 const App = () => {
+  const basename =
+    process.env.NODE_ENV === "production" ? "/KashishPortfolio" : "/";
+
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<Mainlayout />}>
@@ -18,13 +21,10 @@ const App = () => {
         <Route path="cv" element={<CV />} />
         <Route path="works" element={<Works />} />
       </Route>
-    ),
-    {
-      basename: "/KashishPortfolio", // <- important for GitHub Pages
-    }
+    )
   );
 
-  return <RouterProvider router={router} />;
+  return <RouterProvider router={router} basename={basename} />; // <- pass basename here
 };
 
 export default App;
