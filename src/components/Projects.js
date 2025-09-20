@@ -20,7 +20,7 @@ const Projects = () => {
           <a href={`${project.link}`}>
             <div key={i} className="group relative">
               <img
-                src={`${project.imgLink}`}
+                src={`${process.env.PUBLIC_URL}${project.imgLink}`}
                 alt={project.title}
                 className="rounded-xl h-96 md:h-[34rem] object-contain md bg-stone-900"
               />

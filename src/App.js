@@ -1,5 +1,4 @@
 import React from "react";
-
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -16,10 +15,13 @@ const App = () => {
     createRoutesFromElements(
       <Route path="/" element={<Mainlayout />}>
         <Route index element={<HomePage />} />
-        <Route path="/cv" element={<CV />} />
-        <Route path="/works" element={<Works />} />
+        <Route path="cv" element={<CV />} />
+        <Route path="works" element={<Works />} />
       </Route>
-    )
+    ),
+    {
+      basename: "/KashishPortfolio", // <- important for GitHub Pages
+    }
   );
 
   return <RouterProvider router={router} />;
