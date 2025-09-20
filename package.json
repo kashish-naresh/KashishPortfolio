@@ -1,7 +1,7 @@
 {
   "name": "r3f",
   "version": "0.1.0",
-  "homepage":"https://github.com/kashish-naresh/KashishPortfolio",
+"homepage": "https://kashish-naresh.github.io/KashishPortfolio",
   "private": true,
   "dependencies": {
     "@craco/craco": "^7.1.0",
