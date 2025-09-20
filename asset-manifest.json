@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kashish-naresh/KashishPortfolio/static/css/main.bb0fab21.css",
+    "main.js": "/kashish-naresh/KashishPortfolio/static/js/main.f2d5cee1.js",
+    "static/js/453.6dbe7c3d.chunk.js": "/kashish-naresh/KashishPortfolio/static/js/453.6dbe7c3d.chunk.js",
+    "index.html": "/kashish-naresh/KashishPortfolio/index.html",
+    "main.bb0fab21.css.map": "/kashish-naresh/KashishPortfolio/static/css/main.bb0fab21.css.map",
+    "main.f2d5cee1.js.map": "/kashish-naresh/KashishPortfolio/static/js/main.f2d5cee1.js.map",
+    "453.6dbe7c3d.chunk.js.map": "/kashish-naresh/KashishPortfolio/static/js/453.6dbe7c3d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb0fab21.css",
+    "static/js/main.f2d5cee1.js"
+  ]
+}
