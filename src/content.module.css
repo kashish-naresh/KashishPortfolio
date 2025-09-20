@@ -1,0 +1,8 @@
+.wrapper p,
+.wrapper li {
+  @apply text-[18px] font-medium text-[#737373] list-disc marker:text-sm;
+}
+
+.wrapper b {
+  @apply text-black font-medium;
+}

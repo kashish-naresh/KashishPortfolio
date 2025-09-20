@@ -1,0 +1,342 @@
+{
+  "projects": [
+    {
+      "title": "CollabFS",
+      "tech": ["Node.js", "Express.js", "Chokidar", "WebSockets"],
+      "description": [
+        "Enable multiple developers to share a real-time filesystem session.",
+        "Any change (create, modify, delete) is instantly reflected across all participants’ machines.",
+        "Works over local network or internet, without requiring a specific editor or IDE.",
+        "Editor-agnostic, terminal-first solution."
+      ],
+      "link": "https://github.com/kashish-naresh/collabfs",
+      "imgLink": "/img/collabFS.png"
+    },
+    {
+      "title": "LivePad",
+      "tech": ["React", "Node.js", "Express.js", "WebSockets"],
+      "description": [
+        "Developed a real-time collaborative editor that allows users to create custom rooms.",
+        "Enable real-time content synchronization with Socket.IO for seamless collaboration.",
+        "Built with React frontend and Express backend for performance."
+      ],
+      "link": "https://livepad-rwvk.onrender.com/",
+      "imgLink": "/img/livePad.png"
+    },
+    {
+      "title": "Web Portfolio",
+      "tech": ["HTML", "CSS", "JavaScript"],
+      "description": [
+        "Developed a personal web portfolio showcasing web development skills.",
+        "Demonstrated proficiency in web development through portfolio creation.",
+        "Implemented responsive design for optimal viewing on all devices.",
+        "Integrated interactive elements using modern JavaScript frameworks."
+      ],
+      "link": "https://kashish-naresh.github.io/KashishTerminal/",
+      "imgLink": "/img/terminal-portfolio.png"
+    },
+    {
+      "title": "Privacy-Centric Custom Web Browser",
+      "tech": ["Python"],
+      "description": [
+        "Developed a high-performance, privacy-centric custom web browser.",
+        "Integrated advanced ad-blocking and tracker protection for enhanced security.",
+        "Optimized resource efficiency, ensuring smooth operation in low-resource environments."
+      ],
+      "link": "https://github.com/kashish-naresh/WebBrowser",
+      "imgLink": "/img/web-browser.png"
+    },
+    {
+      "title": "Multi Threaded Web Server",
+      "tech": ["JEE", "WebSocket"],
+      "description": [
+        "Developed a high-performance multi-threaded webserver using Java.",
+        "Implemented thread pooling for efficient request handling and resource management.",
+        "Designed custom HTTP protocol parser to process client requests.",
+        "Added support for concurrent client connections with synchronization mechanisms."
+      ],
+      "link": "https://github.com/kashish-naresh/Multi-Threaded-WebServer",
+      "imgLink": "https://cdn.pixabay.com/photo/2017/01/22/22/11/cloud-computing-2001090_1280.jpg"
+    },
+    {
+      "title": "Room Designer",
+      "tech": ["HTML", "CSS", "JavaScript", "OpenAI API"],
+      "description": [
+        "AI Interior Design Generator: Created a web app using OpenAI to transform room designs with AI-powered suggestions.",
+        "Interactive Comparisons: Integrated Beer Slider for smooth before/after visualizations of room redesigns.",
+        "User-Friendly Solution: Provides instant AI-generated concepts for homeowners and designers.",
+        "Technical Implementation: Combined AI API integration with interactive front-end development."
+      ],
+      "link": "https://kashish-naresh.github.io/RoomDesigner/",
+      "imgLink": "/img/roomDesigner.png"
+    },
+    {
+      "title": "Project & Task Management",
+      "tech": ["Python", "SQLite", "PyQT"],
+      "description": [
+        "Implemented CRUD operations for creating, reading, updating and deleting tasks.",
+        "Designed user-friendly interface with intuitive task management.",
+        "Implemented deadline notifications with alert system.",
+        "Developed database storage using SQLite for secure data persistence.",
+        "Created task-focused application centered on project management."
+      ],
+      "link": "https://github.com/kashish-naresh/ProjectManager",
+      "imgLink": "/img/to-do-python.png"
+    },
+    {
+      "title": "File Master",
+      "tech": ["HTML", "CSS", "JavaScript"],
+      "description": [
+        "Developed image tools for compression and format conversion.",
+        "Created PDF tools for text extraction and format conversion.",
+        "Implemented document tools for Word/Excel to PDF conversion.",
+        "Built text extraction using OCR technology.",
+        "Designed audio tools for file conversion and compression.",
+        "Ensured privacy-focused processing with no server uploads."
+      ],
+      "link": "https://kashish-naresh.github.io/FileMaster/",
+      "imgLink": "/img/multi-tools.png"
+    },
+    {
+      "title": "Notes",
+      "tech": ["HTML", "CSS", "JavaScript"],
+      "description": [
+        "Implemented CRUD operations for note management.",
+        "Designed local storage system for persistent notes.",
+        "Created Medium-inspired theme with minimalist UI.",
+        "Developed user-friendly interface for smooth navigation."
+      ],
+      "link": "https://kashish-naresh.github.io/Notes/",
+      "imgLink": "/img/notes.png"
+    },
+    {
+      "title": "Smart Key Reader",
+      "tech": ["HTML", "CSS", "JavaScript", "Python", "Tkinter"],
+      "description": [
+        "Developed keystroke tracking with real-time display.",
+        "Implemented previous text viewing functionality.",
+        "Created shortcut tracking for keyboard commands.",
+        "Designed drag & drop interface for flexible positioning."
+      ],
+      "link": "https://github.com/kashish-naresh",
+      "imgLink": "/img/key-reader.png"
+    },
+    {
+      "title": "Browser Productivity Suite",
+      "tech": ["HTML", "CSS", "JavaScript"],
+      "description": [
+        "Bulk URL Opener: Open multiple links instantly with one click.",
+        "Dark Mode: One-click dark theme with adjustable settings.",
+        "Lightweight: Minimal performance impact on browsers.",
+        "Cross-Platform: Works on Chrome, Firefox, and Edge."
+      ],
+      "link": "https://github.com/kashish-naresh",
+      "imgLink": "/img/bulk.png"
+    },
+    {
+      "title": "Mind Reader",
+      "tech": ["Python", "HTML", "CSS", "JavaScript"],
+      "description": [
+        "Developed an interactive number prediction game using binary search algorithm principles.",
+        "Implemented 6 strategic questions to guess numbers (1-100) with 100% accuracy.",
+        "Designed clean UI with responsive animations using CSS transitions.",
+        "Applied optimized decision tree logic to enhance problem-solving efficiency."
+      ],
+      "link": "https://kashish-naresh.github.io/mindReader/",
+      "imgLink": "/img/mind-reader.png"
+    },
+    {
+      "title": "To-Do List Web",
+      "tech": ["HTML", "CSS", "JavaScript"],
+      "description": [
+        "Implemented CRUD application with local storage persistence.",
+        "Implemented drag-and-drop functionality and priority tagging.",
+        "Created custom animations using CSS keyframes.",
+        "Optimized mobile responsiveness with media queries."
+      ],
+      "link": "https://kashish-naresh.github.io/To-Do-List-WEB/",
+      "imgLink": "/img/to-do-web.png"
+    },
+    {
+      "title": "BlinkIt Clone",
+      "tech": ["HTML", "CSS", "JavaScript"],
+      "description": [
+        "Recreated with pixel-perfect accuracy using Flexbox and Grid.",
+        "Enhanced UI with smooth scroll animations and image optimization.",
+        "Implemented responsive navigation with dropdown menus.",
+        "Reduced load time by 30% through asset optimization."
+      ],
+      "link": "https://github.com/kashish-naresh/Blinkit_Homepage_clone",
+      "imgLink": "/img/blinkit-clone.png"
+    },
+    {
+      "title": "Mobile Sales Dashboard",
+      "tech": ["PowerBI"],
+      "description": [
+        "Analyzed 10K+ records with interactive data visualization.",
+        "Created custom DAX measures for performance metrics.",
+        "Designed drill-through functionality for detailed analysis.",
+        "Implemented conditional formatting for KPI tracking."
+      ],
+      "link": "https://github.com/kashish-naresh/Power_BI",
+      "imgLink": "/img/powerBI.png"
+    },
+    {
+      "title": "Flappy Bird Game",
+      "tech": ["Java"],
+      "description": [
+        "Developed with Java Swing at 60FPS rendering.",
+        "Implemented collision detection algorithms.",
+        "Added progressive difficulty system.",
+        "Designed high score storage with serialization."
+      ],
+      "link": "https://github.com/kashish-naresh/FlappyBird",
+      "imgLink": "/img/flappy-bird.png"
+    },
+    {
+      "title": "Car Racing 2D Game",
+      "tech": ["Java"],
+      "description": [
+        "Created physics engine for vehicle movement.",
+        "Implemented AI opponents with state machines.",
+        "Developed track editor with save/load functionality.",
+        "Added particle effects for explosions."
+      ],
+      "link": "https://github.com/kashish-naresh/CarGame2D",
+      "imgLink": "/img/car-2d.png"
+    },
+    {
+      "title": "Snake Game",
+      "tech": ["Python"],
+      "description": [
+        "Built with Pygame using OOP principles.",
+        "Implemented growing mechanics with smooth movement.",
+        "Added power-ups and special food types.",
+        "Developed encrypted high score system."
+      ],
+      "link": "https://github.com/kashish-naresh/DIGIBHEM",
+      "imgLink": "/img/snakeGame.png"
+    }
+
+],
+  "skills": [
+    {
+      "category": "Languages",
+      "items": [
+        "J2EE",
+        "Django",
+        "JavaScript",
+        "TypeScript",
+        "C++",
+        "C",
+        "SQL"
+      ]
+    },
+    {
+      "category": "Frontend",
+      "items": [
+        "React.js",
+        "Next.js",
+        "Three.js",
+        "JavaFX",
+        "HTML5",
+        "CSS3",
+        "TailwindCSS"
+      ]
+    },
+    {
+      "category": "Backend",
+      "items": [
+        "Node.js",
+        "Express.js",
+        "FastAPI",
+        "GraphQL"
+      ]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "items": [
+        "AWS","EC2", "S3", "Lambda", "RDS",
+        "Azure",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "CI/CD"
+      ]
+    },
+    {
+      "category": "Databases",
+      "items": [
+        "MongoDB",
+        "MySQL",
+        "App Write"
+      ]
+    },
+    {
+      "category": "Data Science",
+      "items": [
+        "Pandas",
+        "NumPy",
+        "Sklearn",
+        "TensorFlow",
+        "PyTorch"
+      ]
+    },
+    {
+      "category": "Other",
+      "items": [
+        "Microservices",
+        "RESTful",
+        "API",
+        "WebSockets",
+        "OAuth",
+        "JWT",
+        "Agile",
+        "Scrum"
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "company": "Outright System Company",
+      "role": "SEO Intern",
+      "duration": "2025 – Present",
+      "responsibilities": [
+        "Optimized CRM platform content using SEO best practices to enhance organic search visibility.",
+        "Conducted keyword research and competitor analysis using SEO tools to refine content strategy.",
+        "Implemented on-page SEO techniques, including meta tags, header optimization, and internal linking.",
+        "Created SEO-friendly content for blogs and landing pages to improve engagement and rankings.",
+        "Monitored website performance using Google Analytics and Search Console to track key metrics.",
+        "Assisted in integrating SEO strategies with the CRM system for streamlined customer data tracking."
+      ]
+    },
+    {
+      "company": "Bharat Intern",
+      "role": "Data Science Intern",
+      "duration": "2023 – 2023",
+      "responsibilities": [
+        "Developed Number Recognition and Stock Price Prediction models using Python and machine learning libraries.",
+        "Conducted data preprocessing, model training, and evaluation to improve prediction accuracy."
+      ]
+    },
+    {
+      "company": "Technohacks",
+      "role": "Cybersecurity & Ethical Hacking Intern",
+      "duration": "2023 – 2023",
+      "responsibilities": [
+        "Performed vulnerability assessments on target websites using Kali Linux and Burp Suite.",
+        "Extracted and analyzed sensitive data, such as passwords, to identify security loopholes.",
+        "Implemented security measures to reduce system vulnerabilities."
+      ]
+    },
+    {
+      "company": "Codsoft",
+      "role": "Python Programming Intern",
+      "duration": "2023 – 2023",
+      "responsibilities": [
+        "Designed and developed a To-Do List application with a user-friendly interface using Tkinter.",
+        "Created a Rock-Paper-Scissors game and a Calculator application to demonstrate Python programming skills."
+      ]
+    }
+  ]
+}
