@@ -17,8 +17,8 @@ const Projects = () => {
     <div>
       <div className="case-study mt-32 px-4 font-medium place-self-center flex flex-col md:grid md:grid-cols-2 lg:grid-cols-4 gap-4">
         {data.projects.slice(0, visibleCount).map((project, i) => (
-          <a href={`${project.link}`}>
-            <div key={i} className="group relative">
+          <a key={i} href={`${project.link}`}>
+            <div className="group relative">
               <img
                 src={`${process.env.PUBLIC_URL}${project.imgLink}`}
                 alt={project.title}

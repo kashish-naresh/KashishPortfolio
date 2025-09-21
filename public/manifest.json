@@ -3,17 +3,17 @@
   "name": "Kashish Chaudhary Portfolio",
   "icons": [
     {
-      "src": "%PUBLIC_URL%/img/k-sign.png",
+      "src": "img/k-sign.png",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/png"
     },
     {
-      "src": "%PUBLIC_URL%/img/k-sign.png",
+      "src": "img/k-sign.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "%PUBLIC_URL%/img/k-sign.png",
+      "src": "img/k-sign.png",
       "sizes": "512x512",
       "type": "image/png"
     }

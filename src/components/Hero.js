@@ -149,7 +149,7 @@ const Hero = () => {
             >
               <div className="absolute w-10 h-10 bg-white rounded-full scale-0 opacity-0 group-hover/icon4:scale-100 group-hover/icon4:opacity-100 transition-all duration-300 ease-out"></div>
               <svg
-                class="w-6 h-6 text-gray-800 group-hover/icon4:text-gray-900 relative z-10 transition-all duration-300 group-hover/icon4:scale-110"
+                className="w-6 h-6 text-gray-800 group-hover/icon4:text-gray-900 relative z-10 transition-all duration-300 group-hover/icon4:scale-110"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -159,9 +159,9 @@ const Hero = () => {
               >
                 <path
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M10 11V8a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1Zm0 0v2a4 4 0 0 1-4 4H5m14-6V8a1 1 0 0 0-1-1h-3a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1Zm0 0v2a4 4 0 0 1-4 4h-1"
                 />
               </svg>

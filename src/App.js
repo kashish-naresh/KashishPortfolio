@@ -21,10 +21,13 @@ const App = () => {
         <Route path="cv" element={<CV />} />
         <Route path="works" element={<Works />} />
       </Route>
-    )
+    ),
+    {
+      basename, // ✅ correct place
+    }
   );
 
-  return <RouterProvider router={router} basename={basename} />; // <- pass basename here
+  return <RouterProvider router={router} />; // ❌ no basename here
 };
 
 export default App;
