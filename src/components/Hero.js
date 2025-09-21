@@ -45,7 +45,12 @@ const Hero = () => {
             through precise implementation.
           </p>
         </div>
-        <div className=" bg-[#ededed] grayscale hover:grayscale-0 active:grayscale-0 rounded-xl  w-72 h-80 md:h-96 lg:h-72 md:w-full flex items-center justify-center md:col-span-1 md:row-span-2  flex-col lg:row-span-2 lg:row-start-1 lg:col-start-2">
+        <div
+          style={{
+            background: "linear-gradient(1200deg, #ededed 30%, #fafafa 50%)",
+          }}
+          className=" bg-[#ededed] grayscale hover:grayscale-0 active:grayscale-0 rounded-xl  w-72 h-80 md:h-96 lg:h-72 md:w-full flex items-center justify-center md:col-span-1 md:row-span-2  flex-col lg:row-span-2 lg:row-start-1 lg:col-start-2"
+        >
           <img
             src="https://cdn.pixabay.com/photo/2024/02/24/20/55/cards-8594729_1280.jpg"
             alt=""
