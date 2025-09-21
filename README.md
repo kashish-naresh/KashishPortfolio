@@ -1,6 +1,6 @@
 # Web Portfolio of Kashish Chaudhary
 
-`https://kashish-naresh.github.io/KashishPortfolio/`
+`https://iamkashish.vercel.app/`
 
 It is made using React.js and Tailwindcss 
 
