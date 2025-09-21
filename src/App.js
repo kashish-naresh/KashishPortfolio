@@ -1,33 +1,26 @@
 import React from "react";
-import {
-  createBrowserRouter,
-  createRoutesFromElements,
-  Route,
-  RouterProvider,
-} from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Mainlayout from "./layouts/Mainlayout";
 import HomePage from "./pages/HomePage";
 import CV from "./pages/CV";
 import Works from "./pages/Works";
 
 const App = () => {
+  // Keep your existing basename logic
   const basename =
     process.env.NODE_ENV === "production" ? "/KashishPortfolio" : "/";
 
-  const router = createBrowserRouter(
-    createRoutesFromElements(
-      <Route path="/" element={<Mainlayout />}>
-        <Route index element={<HomePage />} />
-        <Route path="cv" element={<CV />} />
-        <Route path="works" element={<Works />} />
-      </Route>
-    ),
-    {
-      basename, // ✅ correct place
-    }
+  return (
+    <HashRouter basename={basename}>
+      <Routes>
+        <Route path="/" element={<Mainlayout />}>
+          <Route index element={<HomePage />} />
+          <Route path="cv" element={<CV />} />
+          <Route path="works" element={<Works />} />
+        </Route>
+      </Routes>
+    </HashRouter>
   );
-
-  return <RouterProvider router={router} />; // ❌ no basename here
 };
 
 export default App;
